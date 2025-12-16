@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primaria: #1f4fd8;
+    --secundaria:#4b5563; 
+    --escuro: #111827; 
+    --escuro2:#374151;  
+    --branco: #ffffff;
+    --translucido: rgba(31, 79, 216, 0.08);
+}
+
+body{
+    background-color: var(--escuro);
+    color: var(--branco);
+}
+
+.navegacao{
+    position: fixed;
+    top:0;
+    background: rgba(63, 83, 131, 0.4);
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.linkMenu{
+    color:var(--branco);
+    font-weight: 700;
+    position: relative;
+
+}
+
+.nome{
+    margin-top: 5rem;
+}
+
+.tituloDeSobre{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.tituloFormacao{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.tituloExperiencia{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.tituloContatos{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.xp1{
+    margin-bottom: 1rem;
+}
+
+.xp2{
+    margin-bottom: 1rem;
+}
+
+.f1{
+    margin-bottom: 1rem;
+}
+
+.contatos{
+    padding: 6rem 2rem ;
+}
+
+
+.listacontatos{
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(200, 200, 200, 0.05);
+    backdrop-filter: blur(5xp);
+    padding: 2rem;
+    border: 1px solid var(--translucido)
+}
+
+.nomeForm{
+    margin-bottom: 1.5rem;
+}
+
+.entrada{
+    width: 100%;
+    padding: 1rem;
+    background: rgba(210,210,210,0.05);
+    border-radius: 7px;
+    color: var(--branco);
+    border: 1px solid var(--translucido);
+}
