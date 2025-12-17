@@ -114,3 +114,11 @@ body{
     color: var(--branco);
     border: 1px solid var(--translucido);
 }
+
+.botaoForm{
+    color: var(--branco);
+    background: var(--primaria);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: 100%;
+}

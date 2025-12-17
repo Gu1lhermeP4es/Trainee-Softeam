@@ -84,20 +84,20 @@
      <section id="contato" class="contatos">
         <h2 class="tituloContatos">Contatos</h2>
 
-        <form class="listacontatos" id="formulario">
+        <form class="listacontatos" id="formulario" onsubmit="enviarMensagem(event)">
             <div class="nomeForm">
-                <input placeholder="Nome" class="entrada">
+                <input placeholder="Nome" class="entrada" id="nome">
             </div>
 
            <div class="nomeForm">
-            <textarea  class="entrada" placeholder="Digite sua dúvida e envie-me"></textarea>
+            <textarea  class="entrada" placeholder="Digite sua dúvida e envie-me" rows="6" id="mensagem"></textarea>
            </div>
 
-           
+           <button type="submit" class="botaoForm">Enviar Mensagem</button>
 
         </form>
      </section>
 
-     
+     <script src="script.js"></script>
 </body>
 </html>
